@@ -5,9 +5,9 @@
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
-use Lcobucci\JWT\Signer\Key;
+use Itcyborg\JWT\Signer\Key;
 
 /**
  * This class represents a token signature

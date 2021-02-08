@@ -1,15 +1,15 @@
 <?php
 /**
- * This file is part of Lcobucci\JWT, a simple library to handle JWT and JWS
+ * This file is part of Itcyborg\JWT, a simple library to handle JWT and JWS
  *
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT\Claim;
+namespace Itcyborg\JWT\Claim;
 
 use DateTimeImmutable;
-use Lcobucci\JWT\Claim;
-use Lcobucci\JWT\Token\RegisteredClaims;
+use Itcyborg\JWT\Claim;
+use Itcyborg\JWT\Token\RegisteredClaims;
 use function current;
 use function in_array;
 use function is_array;

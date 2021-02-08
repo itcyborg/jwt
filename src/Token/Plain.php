@@ -1,8 +1,8 @@
 <?php
 
-namespace Lcobucci\JWT\Token;
+namespace Itcyborg\JWT\Token;
 
-use Lcobucci\JWT\Token;
+use Itcyborg\JWT\Token;
 use function class_alias;
 
 class_alias(Token::class, Plain::class);

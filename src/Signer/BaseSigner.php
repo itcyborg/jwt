@@ -1,14 +1,14 @@
 <?php
 /**
- * This file is part of Lcobucci\JWT, a simple library to handle JWT and JWS
+ * This file is part of Itcyborg\JWT, a simple library to handle JWT and JWS
  *
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT\Signer;
+namespace Itcyborg\JWT\Signer;
 
-use Lcobucci\JWT\Signature;
-use Lcobucci\JWT\Signer;
+use Itcyborg\JWT\Signature;
+use Itcyborg\JWT\Signer;
 use function trigger_error;
 use const E_USER_DEPRECATED;
 

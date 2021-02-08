@@ -1,13 +1,13 @@
 <?php
 
-namespace Lcobucci\JWT\Validation\Constraint;
+namespace Itcyborg\JWT\Validation\Constraint;
 
 use DateInterval;
 use DateTimeInterface;
 use Lcobucci\Clock\Clock;
-use Lcobucci\JWT\Token;
-use Lcobucci\JWT\Validation\Constraint;
-use Lcobucci\JWT\Validation\ConstraintViolation;
+use Itcyborg\JWT\Token;
+use Itcyborg\JWT\Validation\Constraint;
+use Itcyborg\JWT\Validation\ConstraintViolation;
 
 final class ValidAt implements Constraint
 {

@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
 /**
  * Class that wraps validation values

@@ -1,9 +1,9 @@
 <?php
 
-namespace Lcobucci\JWT\Signer\Ecdsa;
+namespace Itcyborg\JWT\Signer\Ecdsa;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 
 final class ConversionFailed extends InvalidArgumentException implements Exception
 {

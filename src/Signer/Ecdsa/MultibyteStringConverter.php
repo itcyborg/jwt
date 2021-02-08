@@ -9,7 +9,7 @@
  *
  * @link https://github.com/web-token/jwt-framework/blob/v1.2/src/Component/Core/Util/ECSignature.php
  */
-namespace Lcobucci\JWT\Signer\Ecdsa;
+namespace Itcyborg\JWT\Signer\Ecdsa;
 
 use function bin2hex;
 use function dechex;

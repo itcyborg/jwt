@@ -1,10 +1,10 @@
 <?php
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
-use Lcobucci\JWT\Validation\Constraint;
-use Lcobucci\JWT\Validation\NoConstraintsGiven;
-use Lcobucci\JWT\Validation\RequiredConstraintsViolated;
+use Itcyborg\JWT\Validation\Constraint;
+use Itcyborg\JWT\Validation\NoConstraintsGiven;
+use Itcyborg\JWT\Validation\RequiredConstraintsViolated;
 
 interface Validator
 {

@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT\Signer;
+namespace Itcyborg\JWT\Signer;
 
 use const OPENSSL_KEYTYPE_RSA;
 

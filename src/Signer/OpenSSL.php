@@ -1,5 +1,5 @@
 <?php
-namespace Lcobucci\JWT\Signer;
+namespace Itcyborg\JWT\Signer;
 
 use InvalidArgumentException;
 use function is_resource;

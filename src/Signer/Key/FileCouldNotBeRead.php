@@ -1,8 +1,8 @@
 <?php
 
-namespace Lcobucci\JWT\Signer\Key;
+namespace Itcyborg\JWT\Signer\Key;
 
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 use InvalidArgumentException;
 
 if (PHP_MAJOR_VERSION === 7) {

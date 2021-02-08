@@ -1,10 +1,10 @@
 <?php
 
-namespace Lcobucci\JWT\Validation;
+namespace Itcyborg\JWT\Validation;
 
-use Lcobucci\JWT\Token;
+use Itcyborg\JWT\Token;
 
-final class Validator implements \Lcobucci\JWT\Validator
+final class Validator implements \Itcyborg\JWT\Validator
 {
     public function assert(Token $token, Constraint ...$constraints)
     {

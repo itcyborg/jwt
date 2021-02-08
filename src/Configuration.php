@@ -1,14 +1,14 @@
 <?php
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
 use Closure;
-use Lcobucci\JWT\Parsing\Decoder;
-use Lcobucci\JWT\Parsing\Encoder;
-use Lcobucci\JWT\Signer\Key;
-use Lcobucci\JWT\Signer\Key\InMemory;
-use Lcobucci\JWT\Signer\None;
-use Lcobucci\JWT\Validation\Constraint;
+use Itcyborg\JWT\Parsing\Decoder;
+use Itcyborg\JWT\Parsing\Encoder;
+use Itcyborg\JWT\Signer\Key;
+use Itcyborg\JWT\Signer\Key\InMemory;
+use Itcyborg\JWT\Signer\None;
+use Itcyborg\JWT\Validation\Constraint;
 
 /**
  * Configuration container for the JWT Builder and Parser

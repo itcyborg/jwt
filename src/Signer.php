@@ -5,10 +5,10 @@
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Signer\Key;
+use Itcyborg\JWT\Signer\Key;
 
 /**
  * Basic interface for token signers

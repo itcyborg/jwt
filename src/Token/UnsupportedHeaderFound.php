@@ -1,9 +1,9 @@
 <?php
 
-namespace Lcobucci\JWT\Token;
+namespace Itcyborg\JWT\Token;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 
 final class UnsupportedHeaderFound extends InvalidArgumentException implements Exception
 {

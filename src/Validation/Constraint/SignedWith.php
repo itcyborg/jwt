@@ -1,11 +1,11 @@
 <?php
 
-namespace Lcobucci\JWT\Validation\Constraint;
+namespace Itcyborg\JWT\Validation\Constraint;
 
-use Lcobucci\JWT\Signer;
-use Lcobucci\JWT\Token;
-use Lcobucci\JWT\Validation\Constraint;
-use Lcobucci\JWT\Validation\ConstraintViolation;
+use Itcyborg\JWT\Signer;
+use Itcyborg\JWT\Token;
+use Itcyborg\JWT\Validation\Constraint;
+use Itcyborg\JWT\Validation\ConstraintViolation;
 
 final class SignedWith implements Constraint
 {

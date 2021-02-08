@@ -1,9 +1,9 @@
 <?php
 
-namespace Lcobucci\JWT\Validation\Constraint;
+namespace Itcyborg\JWT\Validation\Constraint;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 
 final class LeewayCannotBeNegative extends InvalidArgumentException implements Exception
 {

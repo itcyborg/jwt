@@ -1,6 +1,6 @@
 <?php
 
-namespace Lcobucci\JWT\Signer;
+namespace Itcyborg\JWT\Signer;
 
 final class None extends BaseSigner
 {

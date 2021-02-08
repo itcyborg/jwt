@@ -1,6 +1,6 @@
 <?php
 
-namespace Lcobucci\JWT\Token;
+namespace Itcyborg\JWT\Token;
 
 /**
  * Defines the list of claims that are registered in the IANA "JSON Web Token Claims" registry

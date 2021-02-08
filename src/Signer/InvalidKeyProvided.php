@@ -1,9 +1,9 @@
 <?php
 
-namespace Lcobucci\JWT\Signer;
+namespace Itcyborg\JWT\Signer;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 
 final class InvalidKeyProvided extends InvalidArgumentException implements Exception
 {

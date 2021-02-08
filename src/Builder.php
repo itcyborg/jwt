@@ -1,19 +1,19 @@
 <?php
 /**
- * This file is part of Lcobucci\JWT, a simple library to handle JWT and JWS
+ * This file is part of Itcyborg\JWT, a simple library to handle JWT and JWS
  *
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
 use DateTimeImmutable;
-use Lcobucci\JWT\Claim\Factory as ClaimFactory;
-use Lcobucci\JWT\Parsing\Encoder;
-use Lcobucci\JWT\Signer\Key;
-use Lcobucci\JWT\Token\DataSet;
-use Lcobucci\JWT\Token\RegisteredClaimGiven;
-use Lcobucci\JWT\Token\RegisteredClaims;
+use Itcyborg\JWT\Claim\Factory as ClaimFactory;
+use Itcyborg\JWT\Parsing\Encoder;
+use Itcyborg\JWT\Signer\Key;
+use Itcyborg\JWT\Token\DataSet;
+use Itcyborg\JWT\Token\RegisteredClaimGiven;
+use Itcyborg\JWT\Token\RegisteredClaims;
 
 use function array_diff;
 use function array_filter;

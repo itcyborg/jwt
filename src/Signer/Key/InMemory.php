@@ -1,9 +1,9 @@
 <?php
 
-namespace Lcobucci\JWT\Signer\Key;
+namespace Itcyborg\JWT\Signer\Key;
 
-use Lcobucci\JWT\Encoding\CannotDecodeContent;
-use Lcobucci\JWT\Signer\Key;
+use Itcyborg\JWT\Encoding\CannotDecodeContent;
+use Itcyborg\JWT\Signer\Key;
 
 use function base64_decode;
 

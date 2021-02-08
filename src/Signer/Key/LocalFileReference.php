@@ -1,8 +1,8 @@
 <?php
 
-namespace Lcobucci\JWT\Signer\Key;
+namespace Itcyborg\JWT\Signer\Key;
 
-use Lcobucci\JWT\Signer\Key;
+use Itcyborg\JWT\Signer\Key;
 
 use function file_exists;
 use function strpos;

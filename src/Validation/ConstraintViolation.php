@@ -1,8 +1,8 @@
 <?php
 
-namespace Lcobucci\JWT\Validation;
+namespace Itcyborg\JWT\Validation;
 
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 use RuntimeException;
 
 final class ConstraintViolation extends RuntimeException implements Exception

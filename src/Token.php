@@ -1,20 +1,20 @@
 <?php
 /**
- * This file is part of Lcobucci\JWT, a simple library to handle JWT and JWS
+ * This file is part of Itcyborg\JWT, a simple library to handle JWT and JWS
  *
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
 use DateTimeImmutable;
 use DateTimeInterface;
 use Generator;
-use Lcobucci\JWT\Claim\Factory;
-use Lcobucci\JWT\Claim\Validatable;
-use Lcobucci\JWT\Signer\Key;
-use Lcobucci\JWT\Token\DataSet;
-use Lcobucci\JWT\Token\RegisteredClaims;
+use Itcyborg\JWT\Claim\Factory;
+use Itcyborg\JWT\Claim\Validatable;
+use Itcyborg\JWT\Signer\Key;
+use Itcyborg\JWT\Token\DataSet;
+use Itcyborg\JWT\Token\RegisteredClaims;
 use OutOfBoundsException;
 use function current;
 use function func_num_args;
@@ -242,7 +242,7 @@ class Token
      * Verify if the key matches with the one that created the signature
      *
      * @deprecated This method has been removed from the interface in v4.0
-     * @see \Lcobucci\JWT\Validation\Validator
+     * @see \Itcyborg\JWT\Validation\Validator
      *
      * @param Signer $signer
      * @param Key|string $key
@@ -262,7 +262,7 @@ class Token
      * Validates if the token is valid
      *
      * @deprecated This method has been removed from the interface in v4.0
-     * @see \Lcobucci\JWT\Validation\Validator
+     * @see \Itcyborg\JWT\Validation\Validator
      *
      * @param ValidationData $data
      *

@@ -1,8 +1,8 @@
 <?php
 
-namespace Lcobucci\JWT\Validation;
+namespace Itcyborg\JWT\Validation;
 
-use Lcobucci\JWT\Token;
+use Itcyborg\JWT\Token;
 
 interface Constraint
 {

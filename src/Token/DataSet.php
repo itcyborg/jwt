@@ -1,6 +1,6 @@
 <?php
 
-namespace Lcobucci\JWT\Token;
+namespace Itcyborg\JWT\Token;
 
 use function array_key_exists;
 

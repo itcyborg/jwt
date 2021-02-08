@@ -1,9 +1,9 @@
 <?php
 
-namespace Lcobucci\JWT\Encoding;
+namespace Itcyborg\JWT\Encoding;
 
 use JsonException;
-use Lcobucci\JWT\Exception;
+use Itcyborg\JWT\Exception;
 use RuntimeException;
 
 final class CannotDecodeContent extends RuntimeException implements Exception

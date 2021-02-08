@@ -1,6 +1,6 @@
 <?php
 
-namespace Lcobucci\JWT;
+namespace Itcyborg\JWT;
 
 if (PHP_MAJOR_VERSION === 5) {
     interface Exception
