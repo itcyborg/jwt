@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lcobucci\\JWT\\": "src"
+            "Itcyborg\\JWT\\": "src"
         },
         "files": [
             "compat/class-aliases.php",
@@ -40,7 +40,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Lcobucci\\JWT\\": [
+            "Itcyborg\\JWT\\": [
                 "test/unit",
                 "test/functional"
             ]
